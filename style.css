@@ -1,0 +1,60 @@
+p {
+  background-color: rgb(54, 105, 73);
+  font-family: Georgia;
+  font-size: 13px;
+  line-height: 22px;
+  border-radius: 13px;
+}
+
+h1,h2 {
+  color: rgb(45, 17, 3);
+  font-family: verdana;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+a:hover {
+  color: crimson;
+  text-decoration: brown;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(84, 14, 102);
+  background-color: #4485a2;
+  padding: 1px;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+.container {
+  background-color: rgb(76, 77, 101);
+  padding: 20px;
+  width: 495px;
+  margin: 25px auto;
+  border-radius: 5px;
+  border: 1px solid #683f3f;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+}
+
+.card {
+  background-color: #BA6E6E;
+  width: 407px;
+  margin: 22px 0px;
+  text-align: center;
+  padding: 44px;
+  border-radius: 22px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+}
+
+@media (max-width: 300px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
